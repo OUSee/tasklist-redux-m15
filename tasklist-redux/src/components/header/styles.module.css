@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.content {
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.HeaderTitle {
+    font-size: 100%;
+}
+
+.addTaskButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+.addTaskButton:hover{
+    background-color: rgba(0, 110, 255, 0.508);
+    border-color: white;
+}    
+.addTaskButton:hover path{
+    stroke: white;
+}

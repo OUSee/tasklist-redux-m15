@@ -1,0 +1,18 @@
+.content {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+
+.button {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0;
+}
+
+.button:hover {
+    cursor: pointer;
+}
